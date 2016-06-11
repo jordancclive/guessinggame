@@ -1,0 +1,26 @@
+body {
+	background-color: #00e52f;
+}
+
+h1 {
+	color: #ff0049;
+}
+
+img {
+	width: 100%;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+.mainone {
+    clear: both;
+    display: block;
+    width: 100px;
+    height: 50px;
+}
