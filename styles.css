@@ -14,7 +14,7 @@ img {
   animation: blinker 1s linear infinite;
 }
 
-@keyframes blinker {  
+@keyframes blinker {
   50% { opacity: 0.0; }
 }
 
@@ -23,4 +23,8 @@ img {
     display: block;
     width: 100px;
     height: 50px;
+}
+
+.winState {
+	font-size: 50px;
 }
